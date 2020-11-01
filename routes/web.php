@@ -23,3 +23,15 @@ Route::get('/', function (){
 Route::get('/geculture', function (){
     return view('geculture');
 }); //企业文化
+Route::get('/genews', function (){
+    return view('genews');
+}); //房产资讯
+Route::get('/geabout', function (){
+    return view('geabout');
+}); //关于我们
+Route::get('/gejobs', function (){
+    return view('gejobs');
+}); //加入我们
+Route::get('/gefocus', function (){
+    return view('gefocus');
+}); //关注我们

@@ -63,16 +63,16 @@
                     <a href="/geculture">格家文化</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/html/keSchool.html">贝壳学院</a>
+                    <a href="/genews">贝壳学院</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/html/liability.html">社会责任</a>
+                    <a href="/geabout">社会责任</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/html/joinUs.html">加入格家</a>
+                    <a href="/gejobs">加入格家</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/html/aboutUs.html">关注我们</a>
+                    <a href="/gefocus">关注我们</a>
                 </li>
             </ul>
         </div>
