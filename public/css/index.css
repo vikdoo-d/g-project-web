@@ -1,0 +1,144 @@
+.swiper-slide .img {
+  height: 450px;
+  display: block;
+  background-image: url("../img/about_swiper2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.swiper-slide .banner2 {
+  height: 450px;
+  display: block;
+  background-image: url("../img/about_swiper2.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.top-block {
+  width: 840px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 0 80px;
+}
+
+.top-block-logo {
+  width: 309px;
+  height: 111px;
+  background-image: url("../img/logo_big.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.top-block-text {
+  width: 430px;
+}
+
+.top-block-text .text {
+  font-size: 24px;
+  font-weight: normal;
+  color: #3072f3;
+}
+
+.top-block-text p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.icon-block {
+  background-color: #f0f3f5;
+  padding: 60px 0 90px;
+}
+
+.icon-block-inner {
+  text-align: center;
+  width: 840px;
+  margin: 0 auto;
+}
+
+.block-title {
+  font-size: 30px;
+  line-height: 60px;
+  color: #333;
+}
+
+.block-sub-title {
+  line-height: 42px;
+  font-size: 16px;
+  color: #666;
+}
+
+.block-line {
+  height: 0;
+  width: 60px;
+  border-bottom: 1px solid #3072f3;
+  margin: 10px auto 0;
+}
+
+.block-sub-line {
+  margin-bottom: 75px;
+}
+
+.block-icon-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.block-icon-wrap {
+  margin-top: 58px;
+}
+
+.block-icon-item {
+  color: #2b2b2b;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+.block-icon-item img {
+  width: 113px;
+  height: 139px;
+}
+
+.bottom-block {
+  padding: 60px 0 0;
+}
+
+.block-sub {
+  width: 840px;
+  margin: 0 auto;
+  margin-bottom: 190px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.block-sub-text {
+  width: 260px;
+}
+
+.block-sub-text p {
+  font-size: 16px;
+  color: #757678;
+  line-height: 24px;
+  text-align: left;
+}
+
+.block-sub-text h2 {
+  font-weight: normal;
+  color: #1a60e9;
+}
+
+.block-sub-logo img {
+  width: 454px;
+  height: auto;
+}
