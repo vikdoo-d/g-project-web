@@ -63,10 +63,10 @@
                     <a href="/geculture">格家文化</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/genews">贝壳学院</a>
+                    <a href="/geabout">社会责任</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/geabout">社会责任</a>
+                    <a href="/genews">房产资讯</a>
                 </li>
                 <li class="nav-item">
                     <a href="/gejobs">加入格家</a>
