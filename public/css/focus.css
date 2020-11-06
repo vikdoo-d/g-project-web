@@ -1,0 +1,44 @@
+#main {
+    margin-top: 57px;
+}
+.content{
+    width: 840px;
+    margin: 0 auto;
+}
+
+.content-title {
+    font-size: 30px;
+    line-height: 78px;
+    color: #333;
+    font-weight: normal;
+    text-align: center;
+}
+
+.split-line {
+    height: 0;
+    width: 62px;
+    border-bottom: 1px solid #3072f3;
+    margin: 0 auto;
+}
+
+.block {
+    margin-top: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.block-item {
+    text-align: center;
+}
+
+.block-title {
+    font-size: 18px;
+    color: #2c68b1;
+    margin: 20px auto 18px;
+}
+
+.block-desc {
+    font-size: 14px;
+    color: #666;
+}
