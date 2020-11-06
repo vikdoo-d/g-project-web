@@ -149,17 +149,6 @@
 @include('Layout.footer')
 <script>
     $(document).ready(function () {
-        var mySwiper = new Swiper('.swiper-container', {
-            autoplay: {
-                delay: 3000
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-                bulletClass: 'my-bullet',
-                bulletActiveClass: 'my-bullet-active',
-            },
-        });
         var player = videojs('my-player', {
             fluid: true,
             autoplay: true,
