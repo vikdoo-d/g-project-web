@@ -81,18 +81,7 @@
 
 @include('Layout.footer')
 <script>
-    $(document).ready(function () {
-        var mySwiper = new Swiper('.swiper-container', {
-            autoplay: true,
-            delay: 3000,
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true,
-                bulletClass: 'my-bullet',
-                bulletActiveClass: 'my-bullet-active',
-            },
-        })
-    })
+
 </script>
 </body>
 </html>
