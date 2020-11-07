@@ -23,9 +23,7 @@ Route::get('/', function (){
 Route::get('/geculture', function (){
     return view('geculture');
 }); //企业文化
-Route::get('/genews', function (){
-    return view('genews');
-}); //房产资讯
+Route::get('/genews', 'PC\News\NewsController@index'); //房产资讯
 Route::get('/geabout', function (){
     return view('geabout');
 }); //关于我们
