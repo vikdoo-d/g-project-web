@@ -134,7 +134,7 @@
                                         <span class="from">{{$v['author']}}</span>
                                         <span class="dot"> · </span>
                                         <span class="time">{{$v['created_at']}}</span>
-                                        <span class="hot">{{$v['page_view']}}</span><span class="hot"><img src="/PC/img/hot.png"></span>
+                                        <span class="hot">{{$v['page_view']}}</span><span class="hot"><img src="../img/hot.png"></span>
                                     </p>
                                 </div>
                             </div>
