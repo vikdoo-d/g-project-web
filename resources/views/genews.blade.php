@@ -222,6 +222,24 @@
             }
         });
 
+        var cateClick = function () {
+            // var test = window.location.pathname;//获取到当前页面的href
+            $('.news-content-a ul li').click(function(){
+
+                $('.news-content-a ul li').each(function(){
+                    // var url=$(this).attr('href');
+                    $(this).removeClass('active')
+                    //在循环遍历中比对，如果找到了与当前页面相同的href就给当前添加class
+                    // if(test==url){
+                    //
+                    // }
+
+                });
+                $(this).addClass('active');
+            })
+        }
+
+        cateClick()
         imgCount();
         $(window).resize(function () {
             imgCount();
