@@ -7,7 +7,7 @@
                 @foreach($h_news as $k=>$v)
                     <div class="swiper-slide">
                         <div class="news-item">
-                            <a href="/news/{{$v['cate']}}/{{$v['id']}}" target="_blank" class="clearfix">
+                            <a href="/{{$v['cate']}}/{{$v['id']}}" target="_blank" class="clearfix">
                                 <div class="news-imgbox img-count">
                                     <div class="aspectRatio"></div>
                                     <div class="img-count-in"><img src="{{$v['img_url']}}"></div>
@@ -117,14 +117,14 @@
                         {{--                        @include('PC.News.news_list')--}}
                         @foreach($l_news as $k=>$v)
                             <div class="item">
-                                <a class="img logview logeclick" href="/news/{{$v['cate']}}/{{$v['id']}}"
+                                <a class="img logview logeclick" href="/{{$v['cate']}}/{{$v['id']}}"
                                    target="_blank" data-log_id="{{$v['id']}}" data-bl="list" data-el="list" data-log_index="0">
-                                    <img data-original="/news/{{$v['cate']}}/{{$v['id']}}"
+                                    <img data-original="/{{$v['cate']}}/{{$v['id']}}"
                                          src="{{$v['img_url']}}"
                                          class="lj-lazy" alt="{{$v['title']}}" style="display: inline;">
                                 </a>
                                 <div class="text">
-                                    <a class="tit LOGCLICK" href="/news/{{$v['cate']}}/{{$v['id']}}" target="_blank"
+                                    <a class="tit LOGCLICK" href="/{{$v['cate']}}/{{$v['id']}}" target="_blank"
                                        data-log_id="{{$v['id']}}" data-bl="list" data-el="list"
                                        data-log_index="0">{{$v['title']}}</a>
                                     <p class="summary">
@@ -145,7 +145,7 @@
                             <ul class="list scroll_c">
                                 @foreach($e_news as $k=>$v)
                                     <li>
-                                        <a href="/news/{{$v['cate']}}/{{$v['id']}}" target="_blank">
+                                        <a href="/{{$v['cate']}}/{{$v['id']}}" target="_blank">
                                             <span>{{$v['title']}}</span>
                                             <span class="time">{{$v['created_at']}}</span>
                                         </a>
@@ -156,7 +156,7 @@
 
                         </div>
                     @endif
-                    <div class="more-btn"> 查看更多</div>
+{{--                    <div class="more-btn"> 查看更多</div>--}}
                 </div>
             </div>
         </div>
